@@ -1,8 +1,8 @@
-1.command to create migrate folder
-  migrate create -ext sql -dir migrations -seq init
+1.command to create migrate folder:
+  -> migrate create -ext sql -dir migrations -seq init
 
 2.migrate folder has two files:
-  up and down file we put the generated ,create table command in the up file
+  -> up and down file we put the generated ,create table command in the up file
 
 3.Database set up
   1. Go to dbdigram.io and write the schema

@@ -12,5 +12,5 @@ func main() {
 		log.Fatalf("error opening database connection: %v", err)
 	}
 	defer db.Close()
-	log.Println("successfully connected to database!")
+	log.Println("successfully connected to database")
 }
